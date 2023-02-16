@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  paknsave_crawler:
+    build:
+      context: .
+    command:
+      ping localhost
+
